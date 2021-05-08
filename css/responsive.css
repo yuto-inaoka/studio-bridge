@@ -1,5 +1,50 @@
 /*responsive*/
 @media screen and (max-width: 1080px) {
+  a :hover {
+    color: black;
+  }
+  .fa-envelope {
+    font-size: 30px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .fa-envelope:hover {
+    color: #fd6e6e;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .fa-line {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 30px;
+  }
+  .fa-line:hover {
+    color: #05c756;
+  }
+  .fa-twitter {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 30px;
+  }
+  .fa-twitter:hover {
+    color: #00aced;
+  }
+  .fa-facebook {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 30px;
+  }
+  .fa-facebook:hover {
+    color: #1e3261;
+  }
+  .fa-instagram {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 30px;
+  }
+  .fa-instagram:hover {
+    color: #4c4c4c;
+  }
   .section-title {
     font-size: 35px;
   }
@@ -118,6 +163,24 @@
 }
 
 @media screen and (max-width: 620px) {
+  .fa-envelope {
+    font-size: 30px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: black;
+  }
+  .fa-line {
+    color: #05c756;
+  }
+  .fa-twitter {
+    color: #00aced;
+  }
+  .fa-facebook {
+    color: #1e3261;
+  }
+  .fa-instagram {
+    color: #4c4c4c;
+  }
   .header .message {
     width: 80%;
     margin-left: 13%;
