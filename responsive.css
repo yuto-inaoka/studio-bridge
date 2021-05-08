@@ -167,18 +167,20 @@
     font-size: 30px;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
+  }
+  .fa-envelope:hover {
     color: black;
   }
-  .fa-line {
+  .fa-line:hover {
     color: black;
   }
-  .fa-twitter {
+  .fa-twitter:hover {
     color: black;
   }
-  .fa-facebook {
+  .fa-facebook:hover {
     color: black;
   }
-  .fa-instagram {
+  .fa-instagram:hover {
     color: black;
   }
   .header .message {
