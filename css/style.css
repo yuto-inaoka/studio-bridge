@@ -6,7 +6,8 @@
 
 html,
 body {
-  font-family: 'Hiragino Sans W1', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
   text-transform: capitalize;
 }
 
@@ -116,7 +117,8 @@ img {
 }
 
 .section-title {
-  font-family: 'hiragino sans w0', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
   font-size: 38px;
   text-align: center;
   margin-right: auto;
@@ -125,10 +127,12 @@ img {
 
 .section-head {
   font-size: 25px;
+  font-weight: 100;
 }
 
 .section-text {
   font-size: 18px;
+  font-weight: 100;
 }
 
 /*header*/
@@ -268,7 +272,6 @@ img {
 
 .header .upper-part .nav-menu .nav-list .nav-item {
   display: none;
-  font-family: 'hiragino sans w1', sans-serif;
   font-size: 20px;
   width: 100px;
   text-align: center;
@@ -296,8 +299,8 @@ img {
 }
 
 .header .message .head {
-  font-family: 'hiragino sans w0', sans-serif;
-  font-size: 42px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
   margin: 0px;
   margin-bottom: 15px;
 }
@@ -441,7 +444,8 @@ img {
 }
 
 .works .wrapper .work-list .work-item .explanation .site-name {
-  font-family: 'hiragino sans w1';
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -468,7 +472,8 @@ img {
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'hiragino sans w1', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
 }
 
 .works .work-flow .step {
@@ -478,7 +483,8 @@ img {
   width: 65%;
   max-width: 600px;
   text-align: center;
-  font-family: 'hiragino sans w1', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
 }
 
 .works .work-flow .step .step-title {
@@ -534,7 +540,8 @@ img {
 }
 
 .price .wrapper .section-text span {
-  font-family: 'hiragino sans w2', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
 }
 
 .price .wrapper .plan-list {
@@ -549,7 +556,8 @@ img {
 }
 
 .price .wrapper .plan-list .plan-item {
-  font-family: 'hiragino sans w1', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
   border-radius: 8px;
   width: 60%;
   max-width: 420px;

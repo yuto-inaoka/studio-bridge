@@ -1,17 +1,18 @@
 /*base*/
-* {
+*{
     box-sizing: border-box;
 }
 
 html,
 body {
-    font-family: 'Hiragino Sans W1', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
     text-transform: capitalize;
 }
 
-body{
-        -webkit-text-size-adjust:100%;
-    }
+body {
+    -webkit-text-size-adjust: 100%;
+}
 
 ul {
     padding-left: 0px;
@@ -104,7 +105,8 @@ img {
 }
 
 .section-title {
-    font-family: 'hiragino sans w0', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
     font-size: 38px;
     text-align: center;
     margin-right: auto;
@@ -113,10 +115,12 @@ img {
 
 .section-head {
     font-size: 25px;
+    font-weight: 100;
 }
 
 .section-text {
     font-size: 18px;
+    font-weight: 100;
 }
 
 /*header*/
@@ -136,10 +140,11 @@ img {
         align-items: center;
         position: relative;
 
-        .fix-nav{
+        .fix-nav {
             transition: all 0.5s;
         }
-        .fix-nav.hide{
+
+        .fix-nav.hide {
             transform: translateY(-300%);
             transition: all 0.5s;
         }
@@ -179,18 +184,22 @@ img {
                 }
             }
 
-            &.-active{
+            &.-active {
                 margin-top: 45px;
+
                 .menu-bar {
-                    &:first-child{
+                    &:first-child {
                         transform: rotate(45deg);
                     }
-                    &:nth-child(2){
+
+                    &:nth-child(2) {
                         display: none;
                     }
-                    &:last-child{
+
+                    &:last-child {
                         transform: rotate(-45deg);
                     }
+
                     transition: transform 0.2s ease;
                     margin-bottom: 0px;
                 }
@@ -211,7 +220,8 @@ img {
             z-index: 1;
             margin-top: 0px;
             transition: opacity 0.2s ease;
-            &.-active{
+
+            &.-active {
                 opacity: 1;
                 visibility: visible;
                 transition: opacity 0.2s ease;
@@ -224,7 +234,6 @@ img {
 
                 .nav-item {
                     display: none;
-                    font-family: 'hiragino sans w1', sans-serif;
                     font-size: 20px;
                     width: 100px;
                     text-align: center;
@@ -233,7 +242,8 @@ img {
                     :last-child {
                         margin-right: 20px;
                     }
-                    a{
+
+                    a {
                         display: none;
                     }
                 }
@@ -252,8 +262,8 @@ img {
         width: 55%;
 
         .head {
-            font-family: 'hiragino sans w0', sans-serif;
-            font-size: 42px;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 300;
             margin: 0px;
             margin-bottom: 15px;
         }
@@ -372,27 +382,34 @@ img {
             margin-right: auto;
             margin-left: auto;
         }
-        .work-list{
+
+        .work-list {
             width: 60%;
             margin-right: auto;
             margin-left: auto;
             text-align: center;
             margin-top: 30px;
-            .work-item{
+
+            .work-item {
                 margin-bottom: 20px;
                 margin-bottom: 50px;
-                img{
+
+                img {
                     width: 100%;
                 }
-                .explanation{
+
+                .explanation {
                     height: auto;
                     text-align: left;
                     padding: 10px 20px;
-                    .site-name{
-                        font-family: 'hiragino sans w1';
+
+                    .site-name {
+                        font-family: 'Noto Sans JP', sans-serif;
+                        font-weight: 300;
                         font-size: 22px;
                     }
-                    .text{
+
+                    .text {
                         font-size: 18px;
                     }
                 }
@@ -418,7 +435,8 @@ img {
             margin-bottom: 50px;
             margin-right: auto;
             margin-left: auto;
-            font-family: 'hiragino sans w1', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 300;
         }
 
         .step {
@@ -428,7 +446,8 @@ img {
             width: 65%;
             max-width: 600px;
             text-align: center;
-            font-family: 'hiragino sans w1', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 300;
 
             .step-title {
                 font-size: 22px;
@@ -461,6 +480,7 @@ img {
         margin-bottom: 100px;
         margin-left: 70%;
     }
+
     .square-2 {
         width: 25vw;
         height: 5px;
@@ -486,7 +506,8 @@ img {
             margin-bottom: 120px;
 
             span {
-                font-family: 'hiragino sans w2', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-weight: 300;
             }
         }
 
@@ -498,7 +519,8 @@ img {
             margin-left: auto;
 
             .plan-item {
-                font-family: 'hiragino sans w1', sans-serif;
+                font-family: 'Noto Sans JP', sans-serif;
+                font-weight: 300;
                 border-radius: 8px;
                 width: 60%;
                 max-width: 420px;
