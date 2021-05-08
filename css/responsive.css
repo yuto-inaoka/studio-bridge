@@ -1,6 +1,6 @@
 /*responsive*/
 @media screen and (max-width: 1080px) {
-  a :hover {
+  a:hover {
     color: black;
   }
   .fa-envelope {
@@ -63,6 +63,11 @@
     top: 0%;
     left: 85%;
     margin-top: 28px;
+  }
+  .header .upper-part .menu-btn:hover .menu-bar {
+    background-color: black;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
   }
   .header .upper-part .nav-menu {
     background-color: rgba(255, 255, 255, 0.7);
