@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDiO BRiDGE (スタジオ・ブリッジ)</title>
+    <link rel="stylesheet" href="./css/sanitize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/fix-nav.js"></script>
+    <script src="./js/scroll-fade.js"></script>
+    <script src="./js/fade.js"></script>
+    <script src="./js/menu-btn.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/wow-script.js"></script>
+    <script>
+      $(function(){
+        $('a[href^="#"]').click(function(){
+          var speed = 600;
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $("html, body").animate({scrollTop:position}, speed, "swing");
+          return false;
+        });
+      });
+      </script>
+      <script>
+$(function() {
+    $('html,body').animate({ scrollTop: 0 }, '1');
+});
+</script>
+  </head>
+  <body>
+    <header class="header top" id='top'>
+      <div class="upper-part">
+        <h1 class="title fade-2500">
+          <img
+            class="header-logo"
+            src="./image/header-logo.png"
+            alt="studio bridge logo"
+          />
+        </h1>
+        <div class="menu-btn fade-5500 fix-nav">
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+        </div>
+        <nav class="nav-menu fade-5500">
+          <ul class="nav-list">
+            <li class="nav-item fade-5500"><a class="capitalize fade-5500" href="#top">Top</a></li>
+            <li class="nav-item fade-5500"><a class="capitalize fade-5500" href="#about">about</a></li>
+            <li class="nav-item fade-5500"><a class="capitalize fade-5500" href="#works">works</a></li>
+            <li class="nav-item fade-5500"><a class="capitalize fade-5500" href="#price">price</a></li>
+            <li class="nav-item fade-5500"><a class="capitalize fade-5500" href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="message fade-3500">
+        <h2 class="head W0">あなたの思いに、橋をかける。</h2>
+        <p class="text">
+          対面での活動に、様々な制約・不安がつきまとう今。<br />WEBの力で、あなたの思いを世に広め、人と人とのつながりをつくります。
+        </p>
+      </div>
+    </header>
+    <div class="about section wow animate__animated animate__fadeIn" data-wow-offset='100' id="about">
+      <div class="wrapper">
+        <h2 class="capitalize W0 section-title">
+          <span>-</span>about<span>-</span>
+        </h2>
+        <div class="mini-section about-studio wow animate__animated animate__fadeIn" data-wow-offset='100'>
+          <h3 class="section-head">
+            静岡県浜松市のWEB制作・マーケティングスタジオ (フリーランス)
+          </h3>
+          <div class="section-text">
+            <p>
+              当ホームページをご覧くださり、ありがとうございます。<br />STUDiO
+              BRiDGE (スタジオ・ブリッジ)
+              では、地方の中小事業者様を専門に、WEB制作およびWEBマーケティング活動を行なっています。
+            </p>
+            <p>
+              コロナ禍においてリモート化が急速に進むとともに、インターネット集客の重要性は大きく増しています。
+            </p>
+            <p>
+              そんな中で、地方でもオンラインの集客環境を充実させ、お客さまとのつながりをつくるお手伝いをしたいと考えております。
+            </p>
+            <p class="desire">
+              「集客のためにWEBサイトを作りたい」「ホームページのリニューアルをしたい」「オンラインショップを作りたい」「サイトやSNSの運用を任せたい」
+            </p>
+            <p>
+              このような悩みをお持ちの皆さま。ぜひ一度、私にご相談ください。
+            </p>
+          </div>
+          <div class="square"></div>
+        </div>
+        <div class="mini-section about-me wow animate__animated animate__fadeIn" data-wow-offset='100'>
+          <div class="text-zone">
+            <h3 class="section-head">代表について</h3>
+            <div class="section-text">
+              <ul class="profile-list">
+                <li class="profile-item">
+                    <p class="profile-category">名前</p>
+                    <p class="profile-content">稲岡 優人 (いなおか ゆうと)</p>
+                </li>
+                <li class="profile-item">
+                  <p class="profile-category">経歴</p>
+                  <p class="profile-content">
+                    静岡県伊東市出身。<br>静岡県立沼津東高校 卒業。<br />浜松医科大学 在学中
+                    (医学部医学科2年)。<br />WEB制作とWEBマーケティングを学習。<br />学習開始とともに本格運用を始めた自身のTwitterでは、初期の6日間で7.8万インプレッションを獲得。<br />2021年5月、STUDiO
+                    BRiDGEを開業。
+                  </p>
+                </li>
+                <li class="profile-item">
+                  <p class="profile-category">趣味</p>
+                  <p class="profile-content">ファッション・音楽・ドライブ</p>
+                </li>
+                <li class="profile-item">
+                  <p class="profile-comment">
+                    丁寧なコミュニケーションを何よりも重視し、事業の理念・目的を詳細に共有しながら、満足度の高い制作・運用をさせていただきます。
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="image-zone">
+            <img src="./image/myface.png" alt="顔写真" />
+          </div>
+        </div>
+        <div class="square"></div>
+      </div>
+    </div>
+    <div class="works section wow animate__animated animate__fadeIn" data-wow-offset='100' id="works">
+      <div class="wrapper">
+        <h2 class="capitalize W0 section-title">
+          <span>-</span>works<span>-</span>
+        </h2>
+        <p class="section-text">
+          外観だけでなく、見る人に思いを伝え、集客につながる制作・運用を追求します。
+        </p>
+        <div class="work-list">
+          <div class="work-item wow animate__animated animate__fadeIn" data-wow-offset='100'>
+            <img src="./image/studio-bridge.png" alt="実績１">
+            <div class="explanation">
+              <p class="site-name">STUDiO BRiDGE</p>
+              <p class="text">現在ご覧いただいているホームページです。皆様が思いを自由に描くキャンバスのような存在でありたいという思いから、限りなくシンプルな色使いで制作しました。</p>
+            </div>
+          </div>
+          <div class="work-item wow animate__animated animate__fadeIn" data-wow-offset='100'>
+            <img src="./image/imaginary-dentist.jpeg" alt="実績2">
+            <div class="explanation">
+              <p class="site-name">ABCデンタルクリニック</p>
+              <p class="text">架空の歯科医院を想定し、デザインを制作しました。医院の強みを訴えかけながら、高い技術や信頼性を感じられるよう考えました。</p>
+            </div>
+          </div>
+          <div class="work-item wow animate__animated animate__fadeIn" data-wow-offset='100'>
+            <img src="./image/gokurakutei.png" alt="実績3">
+            <div class="explanation">
+              <p class="site-name">極楽亭</p>
+              <p class="text">スクールで配布されたデザインをもとに、架空の旅館サイトを制作しました。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="square"></div>
+      <div class="work-flow wow animate__animated animate__fadeIn" data-wow-offset='100'>
+        <p class="flow-title">制作・運用の流れ</p>
+        <div class="step">
+          <p class="step-title">ヒアリング</p>
+          <img src="./image/hearing.png" alt="ヒアリング">
+          <p class="step-content">ご依頼の内容や目的を詳細に共有させていただきます。そして、現状の問題点を探し、料金をお見積もりします。お見積もりに同意いただいたのち、制作・運営の準備に入ります。</p>
+        </div>
+        <p class="secton-text next">&#x2193</p>
+        <div class="step">
+          <p class="step-title">デザイン・運用計画作成</p>
+          <img src="./image/planning.png" alt="計画">
+          <p class="step-content">WEBサイトのデザインや、WEB集客の方法を詳細に決定します。<br>制作・運用費を確保するため、この時点で料金をご請求いたします。デザイン案に関してはこれ以降、変更不可能となります。</p>
+        </div>
+        <p class="section-text next">&#x2193</p>
+        <div class="step">
+          <p class="step-title">コーディング・運用</p>
+          <img src="./image/do.png" alt="制作・運用">
+          <p class="step-content">デザイン・計画をもとに、コーディングあるいは運用を行います。<br>この過程は10日〜1ヶ月程度のお時間をいただきます。制作の進捗・運用の成果は適宜ご連絡し、安心してお任せいただけるよう努めてまいります。</p>
+        </div>
+        <p class="section-text next">&#x2193</p>
+        <div class="step">
+          <p class="step-title">納品・成果確認</p>
+          <img src="./image/check.png" alt="確認">
+          <p class="step-content">制作物または運用の最終成果を確認し、契約終了となります。メンテナンスや運用など、ご契約の継続についてもご相談させていただきます。</p>
+        </div>
+      </div>
+      <div class="square-2"></div>
+    </div>
+    <div class="price section wow animate__animated animate__fadeIn" data-wow-offset='100' id="price">
+      <div class="wrapper">
+        <h2 class="capitalize W0 section-title">
+          <span>-</span>price<span>-</span>
+        </h2>
+        <p class="section-text">
+         WEB制作プランでは、全てのプランで<span>「スマホサイズ対応」「地図・お問い合わせフォームの設置」「デザイン決定まで、提案回数無制限」</span>となっております。また、月額1万円のメンテナンスサービスも用意しております。既存サイトの修正については、修正の程度により料金が異なりますので、個別にお見積もりいたします。<br /><br /> WEBマーケティングプランでは、WEBサイトやSNSの運用・サポートにより、集客・売上の向上を目指します。また、今後LINE公式アカウントの運用にも対応していく予定でございます。
+        </p>
+        <div class="plan-list wow animate__animated animate__fadeIn" data-wow-offset='100'>
+          <div class="plan-item">
+            <p class="plan-name">web制作</p>
+            <div class="icon-frame">
+              <img class="icon" src="./image/webdesign-icon.png" alt="web制作" />
+            </div>
+            <div class="price-example">
+              <p class="price-example-list">料金目安</p>
+              <p class="price-example-item">ランディングページ：<span>15万円〜</span></p>
+              <p class="price-example-item">
+                ブログ機能付きホームページ：<span>25万円〜</span>
+              </p>
+              <p class="price-example-item">ECサイト(オリジナル)：<span>50万円〜</span></p>
+              <p class="price-caution">
+                ※別途、WEBサイトの維持費が定期的にかかります。基本的には月額数百円〜数千円ほどとなります。
+              </p>
+            </div>
+          </div>
+          <div class="plan-item">
+            <p class="plan-name">webマーケティング</p>
+            <div class="icon-frame">
+              <img class="icon" src="./image/webmarketing-icon.png" alt="web制作" />
+            </div>
+            <div class="price-example">
+              <p class="price-example-list">料金目安</p>
+              <p class="price-example-item">Twitter運用代行：<span>3万円/月〜</span></p>
+              <p class="price-example-item">Instagram運用代行：<span>5万円/月〜</span></p>
+              <p class="price-example-item">WEBサイト運用代行：<span>7万円/月〜</span></p>
+              <p class="price-caution">
+                ※初期3ヶ月を上記の価格で運用し、その後の料金については別途ご相談させていただきます。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="caution">
+          <p class="caution-text">
+            正式な価格は、無料のご相談、お見積もりの後にご提示いたします。<br />ご依頼を前提としないお見積もりでも、全く問題ありません。お気軽にお問い合わせください。
+          </p>
+        </div>
+      </div>
+      <div class="square"></div>
+    </div>
+    <div class="contact section wow animate__animated animate__fadeIn" data-wow-offset='100' id="contact">
+      <div class="wrapper">
+        <h2 class="capitalize W0 section-title">
+          <span>-</span>contact<span>-</span>
+        </h2>
+        <div class="link section-text">
+          <p>
+            ご相談・ご依頼は、メールまたはLINE公式アカウントからお受けしています。内容を確認し、こちらから、面談あるいはZOOMでのご相談を提案させていただきます。<br>3日以内に返信がない場合、送信に不具合が生じた可能性がございます。お手数ですが、もう一度ご送信くださいますようお願いいたします。
+          </p>
+          <div class="icon">
+            <a href="mailto:contact@studiobridge.jp" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href=""><i class="fab fa-line"></i></a>
+          </div>
+        </div>
+        <div class="link section-text">
+          <p>
+            また、TwitterやFacebookではお仕事、Instagramではプライベートをメインに、代表名のアカウントで発信しております。ぜひご覧いただき、私のことを知っていただければと思います。
+          </p>
+          <div class="icon">
+            <a href="https://www.twitter.com/yuto_webmed" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/yuto.inaoka.54" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/yutoinaoka" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="square"></div>
+    </div>
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./image/header-logo.png" alt="studio bridge logo" />
+      </div>
+      <p class="copyright">&copy; STUDiO BRiDGE 2021 All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
