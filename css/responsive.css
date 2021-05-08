@@ -183,6 +183,11 @@
   .fa-instagram:hover {
     color: black;
   }
+  .header .upper-part .menu-btn:hover .menu-bar {
+    background-color: black;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
   .header .message {
     width: 80%;
     margin-left: 13%;
