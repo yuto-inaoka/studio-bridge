@@ -308,7 +308,7 @@ img {
 
 .header .message .text {
   font-size: 22px;
-  margin-left: 5px;
+  margin-left: 0px;
   line-height: 1.5;
 }
 
