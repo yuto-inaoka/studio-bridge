@@ -1,5 +1,57 @@
 /*responsive*/
 @media screen and (max-width:1080px) {
+    a {
+        :hover {
+            color: black;
+        }
+    }
+
+    .fa-envelope {
+        font-size: 30px;
+        transition: all 0.4s;
+
+        &:hover {
+            color: rgb(253, 110, 110);
+            transition: all 0.4s;
+        }
+    }
+
+    .fa-line {
+        &:hover {
+            color: rgb(5, 199, 86);
+        }
+
+        transition: all 0.4s;
+        font-size: 30px;
+    }
+
+    .fa-twitter {
+        &:hover {
+            color: rgb(0, 172, 237);
+        }
+
+        transition: all 0.4s;
+        font-size: 30px;
+    }
+
+    .fa-facebook {
+        &:hover {
+            color: rgb(30, 50, 97);
+        }
+
+        transition: all 0.4s;
+        font-size: 30px;
+    }
+
+    .fa-instagram {
+        &:hover {
+            color: rgb(76, 76, 76);
+        }
+
+        transition: all 0.4s;
+        font-size: 30px;
+    }
+
     .section-title {
         font-size: 35px;
     }
@@ -88,20 +140,22 @@
     }
 
     .works {
-        .wrapper{
-            .work-list{
-                .work-item{
-                    .explanation{
-                        .site-name{
+        .wrapper {
+            .work-list {
+                .work-item {
+                    .explanation {
+                        .site-name {
                             font-size: 20px;
                         }
-                        .text{
+
+                        .text {
                             font-size: 18px;
                         }
                     }
                 }
             }
         }
+
         .work-flow {
             .flow-title {
                 font-size: 20px;
@@ -166,6 +220,45 @@
 }
 
 @media screen and (max-width:620px) {
+    .fa-envelope {
+        font-size: 30px;
+        transition: all 0.4s;
+
+        &:hover {
+            color: black;
+        }
+
+    }
+
+    .fa-line {
+
+        &:hover {
+            color: black;
+        }
+
+    }
+
+    .fa-twitter {
+        &:hover {
+            color: black;
+        }
+
+    }
+
+    .fa-facebook {
+        &:hover {
+            color: black;
+        }
+    }
+
+
+    .fa-instagram {
+        &:hover {
+            color: black;
+        }
+
+    }
+
     .header {
         .message {
             width: 80%;
@@ -214,15 +307,17 @@
             }
         }
     }
+
     .works {
-        .wrapper{
-            .work-list{
-                .work-item{
-                    .explanation{
-                        .site-name{
+        .wrapper {
+            .work-list {
+                .work-item {
+                    .explanation {
+                        .site-name {
                             font-size: 16px;
                         }
-                        .text{
+
+                        .text {
                             font-size: 14px;
                         }
                     }
@@ -230,6 +325,7 @@
             }
         }
     }
+
     .footer {
         .footer-logo {
             width: 70%;
@@ -302,6 +398,7 @@
                     width: 80%;
                 }
             }
+
             .about-me {
                 .text-zone {
                     width: 80%;
@@ -310,21 +407,24 @@
             }
         }
     }
+
     .works {
-        .wrapper{
-            .work-list{
-                .work-item{
-                    .explanation{
-                        .site-name{
+        .wrapper {
+            .work-list {
+                .work-item {
+                    .explanation {
+                        .site-name {
                             font-size: 15px;
                         }
-                        .text{
+
+                        .text {
                             font-size: 13px;
                         }
                     }
                 }
             }
         }
+
         .work-flow {
             .flow-title {
                 font-size: 20px;
@@ -515,8 +615,9 @@
         background-image: url(../image/top-bg-sp.png);
         background-size: cover;
         background-position: center;
+
         .upper-part {
-            .title{
+            .title {
                 width: 200px;
             }
         }

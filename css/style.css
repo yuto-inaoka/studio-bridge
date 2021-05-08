@@ -418,6 +418,7 @@ img {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 120px;
 }
 
 .works .wrapper .work-list {
@@ -467,7 +468,7 @@ img {
 }
 
 .works .work-flow .flow-title {
-  font-size: 23px;
+  font-size: 25px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: auto;
