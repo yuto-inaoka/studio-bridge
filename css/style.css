@@ -500,8 +500,12 @@ img {
 }
 
 .works .work-flow .step img {
+  display: inline-block;
+  text-align: center;
   margin: 0px;
   width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .works .work-flow .step .step-content {
@@ -583,7 +587,12 @@ img {
 }
 
 .price .wrapper .plan-list .plan-item .icon-frame .icon {
+  display: inline-block;
+  text-align: center;
+  display: block;
   width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .price .wrapper .plan-list .plan-item .price-example {

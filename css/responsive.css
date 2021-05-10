@@ -287,6 +287,8 @@
   }
   .about .wrapper .about-studio .section-text {
     width: 80%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .about .wrapper .about-me .text-zone {
     width: 80%;
@@ -356,6 +358,8 @@
     width: 100%;
   }
   .price .wrapper .plan-list .plan-item .icon-frame .icon {
+    margin-right: auto;
+    margin-left: auto;
     width: 75%;
   }
   .price .wrapper .plan-list .plan-item .price-example {

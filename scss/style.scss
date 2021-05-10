@@ -1,5 +1,5 @@
 /*base*/
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -267,7 +267,7 @@ img {
 
         .head {
             font-family: 'Noto Sans JP', sans-serif;
-            font-weight:   100;
+            font-weight: 100;
             margin: 0px;
             margin-bottom: 15px;
             font-size: 40px;
@@ -461,8 +461,12 @@ img {
             }
 
             img {
+                display: inline-block;
+                text-align: center;
                 margin: 0px;
                 width: 50%;
+                margin-right: auto;
+                margin-left: auto;
             }
 
             .step-content {
@@ -543,7 +547,12 @@ img {
                     width: 100%;
 
                     .icon {
+                        display: inline-block;
+                        text-align: center;
+                        display: block;
                         width: 75%;
+                        margin-right: auto;
+                        margin-left: auto;
                     }
                 }
 
