@@ -125,6 +125,7 @@ img {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 100px;
 }
 
 .section-head {
@@ -538,10 +539,6 @@ img {
 }
 
 /*price*/
-.price .wrapper .section-title {
-  margin-bottom: 100px;
-}
-
 .price .wrapper .section-text {
   width: 75%;
   line-height: 1.5;

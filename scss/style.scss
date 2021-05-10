@@ -112,7 +112,8 @@ img {
     font-size: 38px;
     text-align: center;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
+    margin-bottom: 100px;
 }
 
 .section-head {
@@ -504,9 +505,6 @@ img {
 /*price*/
 .price {
     .wrapper {
-        .section-title {
-            margin-bottom: 100px;
-        }
 
         .section-text {
             width: 75%;
