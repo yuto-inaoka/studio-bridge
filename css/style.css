@@ -21,6 +21,7 @@ ul {
 
 li {
   list-style: none;
+  content: none;
 }
 
 a {
@@ -28,6 +29,7 @@ a {
   color: black;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  content: none;
 }
 
 a:hover {
@@ -276,6 +278,7 @@ img {
   width: 100px;
   text-align: center;
   display: inline;
+  content: none;
 }
 
 .header .upper-part .nav-menu .nav-list .nav-item :last-child {
@@ -284,6 +287,8 @@ img {
 
 .header .upper-part .nav-menu .nav-list .nav-item a {
   display: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .header .message {

@@ -20,12 +20,14 @@ ul {
 
 li {
     list-style: none;
+    content: none;
 }
 
 a {
     text-decoration: none;
     color: black;
     transition: all 0.4s;
+    content: none;
 
     &:hover {
         transition: all 0.4s;
@@ -238,6 +240,7 @@ img {
                     width: 100px;
                     text-align: center;
                     display: inline;
+                    content: none;
 
                     :last-child {
                         margin-right: 20px;
@@ -245,6 +248,7 @@ img {
 
                     a {
                         display: none;
+                        transition: all 0.4s;
                     }
                 }
             }
@@ -263,9 +267,10 @@ img {
 
         .head {
             font-family: 'Noto Sans JP', sans-serif;
-            font-weight: 300;
+            font-weight:   100;
             margin: 0px;
             margin-bottom: 15px;
+            font-size: 40px;
         }
 
         .text {

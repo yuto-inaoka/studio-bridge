@@ -194,7 +194,7 @@
     transition: all 0.4s;
   }
   .header .message {
-    width: 80%;
+    width: 85%;
     margin-left: 13%;
   }
   .header .message .head {
@@ -221,7 +221,7 @@
   }
   .header .message {
     margin-left: 10%;
-    width: 75%;
+    width: 78%;
   }
   .header .message .head {
     font-size: 30px;

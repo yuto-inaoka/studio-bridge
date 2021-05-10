@@ -1,7 +1,7 @@
 /*responsive*/
 @media screen and (max-width:1080px) {
     a {
-        :hover {
+        &:hover {
             color: black;
         }
     }
@@ -76,8 +76,13 @@
                 top: 0%;
                 left: 85%;
                 margin-top: 28px;
+                &:hover {
+                    .menu-bar {
+                        background-color: black;
+                        transition: all 0.4s;
+                    }
+                }
             }
-
             .nav-menu {
                 background-color: rgba($color: white, $alpha: 0.7);
                 text-align: center;
@@ -260,8 +265,18 @@
     }
 
     .header {
+        .upper-part{
+            .menu-btn{
+                &:hover {
+                    .menu-bar {
+                        background-color: black;
+                        transition: all 0.4s;
+                    }
+                }
+            }
+        }
         .message {
-            width: 80%;
+            width: 85%;
             margin-left: 13%;
 
             .head {
@@ -295,7 +310,7 @@
 
         .message {
             margin-left: 10%;
-            width: 75%;
+            width: 78%;
 
             .head {
                 font-size: 30px;
